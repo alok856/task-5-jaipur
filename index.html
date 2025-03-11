@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Jaipur - The Pink City</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f0f0f0;
+        }
+
+        /* Navbar Styles */
+        #navbar {
+            background-color: #b92e2e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        #navbar nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #navbar nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        #navbar nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease, transform 0.3s ease; /* Adding transition for color and transform */
+        }
+
+        /* Navbar Hover Effect */
+        #navbar nav ul li a:hover {
+            color: #20060f; /* Change to a bright color on hover */
+            transform: scale(1.1); /* Slightly scale up the text */
+        }
+
+        /* Hero Image Section */
+        .hero-image {
+            background-image: url('https://thetechytalks.com/public/img/uploads/media/1691580697.jpg'); /* Background image */
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero-image h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .hero-image p {
+            font-size: 20px;
+        }
+
+        /* About Section */
+        #about {
+            padding: 40px 20px;
+            background-color: white;
+            text-align: center;
+        }
+
+        #about h2 {
+            font-size: 35px;
+            color: #d81858;
+        }
+
+        #about p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px 0;
+            text-align: justify;
+        }
+
+        #about .highlight {
+            color: #e91e63;
+            font-weight: bold;
+        }
+
+        /* Images of Jaipur */
+        .city-images {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .city-images img {
+            width: 250px;
+            height: 150px;
+            border-radius: 10%;
+            border: 5px solid #b83460;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .city-images .image-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .image-container h4 {
+            font-size: 18px;
+            font-weight: bold;
+            color: #b92e2e;
+        }
+
+        /* Top Attractions Section */
+        #attractions {
+            background-color: #f9f9f9;
+            padding: 40px 20px;
+        }
+
+        #attractions h2 {
+            font-size: 35px;
+            color: #e91e63;
+            text-align: center;
+        }
+
+        #attractions ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        #attractions ul li {
+            font-size: 22px;
+            padding: 10px;
+        }
+
+        #attractions ul li span {
+            color: #b92e2e;
+            font-weight: bold;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: #ca295f;
+            color: rgb(254, 251, 251);
+            padding: 5px 20px;
+            text-align: center;
+        }
+
+        #contact h2 {
+            font-size: 30px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <header id="navbar">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Jaipur</a></li>
+                <li><a href="#attractions">Top Attractions</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Image Section -->
+    <section id="home">
+        <div class="hero-image">
+            <h1><b>Welcome to Jaipur</b></h1>
+            <p><b><u>Discover the magic of the Pink City</u></b></p>
+        </div>
+    </section>
+
+    <!-- About Jaipur Section -->
+    <section id="about">
+        <h2><b><u>About Jaipur</u></b></h2>
+        <p>Jaipur, also known as the <span class="highlight">"Pink City"</span> is the capital of Rajasthan, India. The city is known for its rich history, stunning architecture, and vibrant culture. With its grand palaces, colorful markets, and beautiful forts, Jaipur offers a fascinating glimpse into the royal past of India. Jaipur is also known for its <span class="highlight">Hawa Mahal</span>, <span class="highlight">Amber Fort</span>, and <span class="highlight">City Palace</span>, all of which attract tourists from around the world.</p>
+    </section>
+
+    <div class="city-images">
+        <div class="image-container">
+            <img src="https://cdn.britannica.com/25/242225-050-72142DF7/Front-facade-of-Palace-of-the-Winds-Hawa-Mahal-Jaipur-Rajasthan-India.jpg" alt="Hawa Mahal">
+            <h4><b><u>Hawa-Mahal</u></b></h4>
+        </div>
+        <div class="image-container">
+            <img src="https://www.swantour.com/blogs/wp-content/uploads/2018/09/Amer-Fort.jpg" alt="Amber Fort">
+            <h4><b><u>Amber-Fort</u></b></h4>
+        </div>
+        <div class="image-container">
+            <img src="https://lh3.googleusercontent.com/proxy/KPpfNbXjQ2yOntYR96D13J7DfQm7FPebvdp2HLB2hBJ0-oMTKvghF6kzMiUqCY_jUBMy6sA6XBM0U2E5DE972aU9KCAzrw" alt="City Palace">
+            <h4><b><u>City-Palace</u></b></h4>
+        </div>
+    </div>
+
+    <!-- Top Attractions Section -->
+    <section id="attractions">
+        <h2><b><u>Top Attractions in Jaipur</u></b></h2>
+        <ul>
+            <li><span>Hawa Mahal</span> - The Palace of Winds</li>
+            <li><span>Amber Fort</span> - A Majestic Fort</li>
+            <li><span>City Palace</span> - A Royal Residence</li>
+            <li><span>Jantar Mantar</span> - An Astronomical Observatory</li>
+            <li><span>Jaigarh Fort</span> - A Historical Fortress</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2><b><u>Contact Us</u></b></h2>
+        <p>Email : jaypur123@gmail.com <br> <br>Call : 0123456789</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Explore Jaipur - All Rights Reserved <br> <br><b><u>Developed_by_Alok.</u></b></p>
+    </footer>
+
+</body>
+</html>
